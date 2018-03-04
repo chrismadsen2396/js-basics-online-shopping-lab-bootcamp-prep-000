@@ -66,14 +66,14 @@ function removeFromCart(item) {
     }
   }
   if (itemFound === false) {
-    console.log 'That item is not in your cart.';
+    console.log `That item is not in your cart`;
   }
   return cart;
 }
 
 function placeOrder(cardNumber) {
   if (cardNumber === '') {
-    console.log `Sorry, we don't have a credit card on file for you`;
+    console.log "Sorry, we don't have a credit card on file for you";
   } else {
     console.log `Your total coast is $${total()}, which will be charged to the card ${cardNumber}.`;
     cart = [];
