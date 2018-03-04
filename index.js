@@ -45,9 +45,6 @@ function viewCart() {
     console.log(`In your cart, you have${output}.`);
   }
 }
-    
-    var itemName = Object.keys(cart[0]);
-    var itemPrice = cart[0].itemName;
 
 function total() {
   var totalPrice = 0;
